@@ -1,0 +1,38 @@
+ "workbench.colorCustomizations": {
+        "editor.background": "#181818",
+        "editor.foreground": "#f1f1f1",
+        "statusBar.background": "#000",
+    },
+
+    "editor.tokenColorCustomizations": {
+        "numbers": "#ff7f81",
+        "strings": "#ffb2e5",
+        
+        "functions": "#fdffb2",
+        "types": "#ff7f81",
+        "keywords": "#ffb2e5",
+
+        "textMateRules": [
+            {
+                "scope": [
+                    "keyword.other",
+                    "storage.modifier.visibility",
+                   
+                ],
+                "settings": {
+                    "foreground": "#b2ffc0",
+                    "fontStyle": "italic"
+                }
+            },
+
+            {
+                "scope": [
+                    "comment.line.double-slash",
+                ],
+                "settings": {
+                    "foreground": "#597f60",
+                    "fontStyle": "italic"
+                }
+            },
+        ]
+    },
